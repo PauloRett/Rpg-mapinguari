@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>SCP</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Um dia desses, no seu trabalho de pesquisa de criaturas sobrenatural lhe foi dado a missão de encontrar uma criatura misteriosa na floresta que era pura em beleza e pureza natura...mas esconde um misterio perturbador. Nisso vem duas possibilidades em sua mente qual seguir?...</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a floresta</button>
+            <button class="btn-proximo" data-proximo="2">Busca por mais informações</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No momento em que voce entra na floresta um energia negativa parece te donominar Medo, Ansiedade e uma sensação de ser observado infernal...Então voce escuto um som alto parecendo um grito o que fazer?</p>
+            <button class="btn-proximo" data-proximo="3">SE AFASTAR O MAIS RAPIDO POSSIVEL!</button>
+            <button class="btn-proximo" data-proximo="4">Seguir o som</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Muito esperto, voce vai para a cidade procurar por mais informações mas voce pode conversar com o povo da cidade ou procurar informações na biblioteca?</p>
+            <button class="btn-proximo" data-proximo="5">Conversar com as pessoas</button>
+            <button class="btn-proximo" data-proximo="6">ir para a biblioteca</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Apos vc de afastar o mais rapido que consegue, vc volta para a cidade e resolve recolher informações</p>
+            <button class="btn-proximo" data-proximo="7">Conversar com as pessoas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://i.ytimg.com/vi/jIyVPOZuouk/maxresdefault.jpg" alt="VOCE PERDEU">
+            <p>Pobre alma, tao destemida mas ao mesmo tempo arrogante o suficiente para acreditar que aquele som nao era nada, no momento que o som fica mais alto a criatura te agarra
+            e te engoliu...VOCE MORREU! 
+            </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Apos conversar com as pessoas voce so consegue as informações de cer uma criatura peluda,alta e com uma boca na barriga</p>
+            <button class="btn-proximo" data-proximo="7">Ir atras da criatura mesmo com pouca informações.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>apos ler algumas livros da biblioteca vc descobre que o nome da criatura e Mapinguari Dentro das densas matas da floresta amazônica, há uma criatura mitológica, meio humana e meio bicho, com longos pelos que, de tão duros, chegam a ser a prova de balas. Alguns relatam seu odor como insuportável, que a criatura possui apenas um olho, e que sua boca é rasgada do nariz até o estômago. Se não bastasse a figura tenebrosa que já se formou, há ainda quem diga que seu grito é estrondoso, seus pés são virados para trás (assim como o Curupira) e que suas mãos possuem longas garras, capazes de causar grandes danos. É claro que estamos falando da criatura mais famosa do folclore amazônico: o Mapinguari. Agora
+                com essas inforações voce pode ir atras da criatura com garantia de como lidar com o monstros!
+            </p>
+            <button class="btn-proximo" data-proximo="8">Ir atras da criatura</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na floresta voce encontra um caminho bifurcado...Qual lado seguir?.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda o caminho mais escuro</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita o caminho mais claro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Caminho errado acha melhor voltar e seguir o certo...antes que algo pior te pegue</p>
+            <button class="btn-proximo" data-proximo="7">Ir para o lado certo!
+            </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Não sei se te considero corajoso ou tolo mais vc seguiu o caminho certo a encontrou a dita criatura...agora de frente com ele voce so tem uma opção...</p>
+            <button class="btn-proximo" data-proximo="11">Lute pela vida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Medroso, vc segue o caminho mais onde esta tudo florido e iluminado...não acho que uma criatura se esconderia aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e ir pelo caminho escuro</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://portalconteudoaberto.com.br/wp-content/uploads/2023/08/maxresdefault.jpg" alt="Criatura capturada!">
+            <p>apos um luta e muito estrateja voce consegue sair vitorioso assim voce tranquiliza e leve a criatura para a instalação...assim ganhou um grande respeito pelos seu colegas de trabalho</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Voce anda por um tempo ate que se encontra de frente com a criatura...a criatura solto um grugido e logo se prepara para te atacar...</p>
+            <button class="btn-proximo" data-proximo="11">Fuja ou LUte vc nao tem escolha</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
